@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AATF - Contacto</title>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../img/logowhite.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="../js/common.js"></script>
+</head>
+<body>
+	<!-- Background video -->
+	<video autoplay muted loop id="vinyl-background">
+		<source src="../video/vinyl-test1.mp4" type="video/mp4">
+	</video>
+
+	<!-- Navbar Items -->
+	<nav id="menu">
+		<ul>
+			<div>
+				<div class="index">
+					<li class="li-index">
+						<a href="./index-spanish.html" class="a-index">
+							<img class="foto-index" src="../img/logowhite.png">
+						</a>
+					</li>
+				</div>
+				<div class="aatf">
+					<p>AATF</p>
+				</div>
+				<li><a href="./history-spanish.html">Historia</a></li>
+				<li><a href="./documentation-spanish.html">Documentación</a></li>
+				<li><a href="./downloads-spanish.html">Descargas</a></li>
+				<li><a href="./contact-spanish.html">Contacto</a></li>
+				<li><a href="./thanks-spanish.html">Agradecimientos</a></li>
+				<div class="desplegable">
+					<button onclick="desplegar()" class="boton-idioma">
+						<li><img class="foto-idioma" src="../img/espanol.png"></li>
+					</button>
+					<div id="contenido-idiomas" class="contenido-idiomas">
+						<ul>
+							<li><a href="./history-spanish.html">Español</a></li>
+							<li><a href="../english/contact-english.html">Inglés</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</ul>
+	</nav>
+
+	<!-- Contact  -->
+	<div class="divs-contacto">
+		<div class="caja-contacto">
+			<div class="contacto">
+				<h2>Contacto</h2>
+				<form action="" method="post">
+					<div class="div-lineas">
+						<hr>
+					</div>
+					<p><label>Nombre completo: <input type="text" name="nombre" required></label></p>
+					<div class="div-lineas">
+						<hr>
+					</div>
+					<p><label>Correo electrónico: <input type="email" name="correo" required></label></p>
+					<div class="div-lineas">
+						<hr>
+					</div>
+					<p><label>Comentario: <textarea required></textarea></label></p>
+					<div class="div-lineas">
+						<hr>
+					</div>
+					<div class="espaciado-submit">
+						<button type="submit">Envía tú mensaje</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="contacto2">
+			<h2>Otras formas de contacto</h2>
+			<div class="div-lineas">
+				<hr>
+			</div>
+			<div class="div-block-contacto2">
+				<img src="../img/email.png">
+				<p>aatf-org@gmail.com</p>
+			</div>
+			<div class="div-lineas">
+				<hr>
+			</div>
+			<div class="div-block-contacto2">
+				<img src="../img/phone.png">
+				<p>+34 666 666 666</p>
+			</div>
+			<div class="div-lineas">
+				<hr>
+			</div>
+			<div class="div-block-contacto2">
+				<img src="../img/direction.png">
+				<p>España, Alcázar de San Juan, Av. de los Institutos, I.E.S Juan Bosco</p>
+			</div>
+			<div class="div-lineas">
+				<hr>
+			</div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1085.968793781931!2d-3.2224986128725566!3d39.39167128051974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd69af036cec6af9%3A0x3cb32e283081ecee!2sIES%20Juan%20Bosco!5e0!3m2!1ses!2ses!4v1676206479119!5m2!1ses!2ses" width="400" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="centro">
+		<div class="copyright">
+			<h3>Copyright</h3>
+			<p>Arturo Navarro Balbuena © 2023</p>
+		</div>
+		<div class="social-media">
+			<h3>Nuestras redes sociales</h3>
+			<div class="social-media-icons">
+				<a href="https://discord.gg/aatf-org/"><img src="../img/discord.png"></a>
+				<a href="https://t.me/aatf-org/"><img src="../img/telegram.png"></a>
+				<a href="https://twitter.com/aatf-org/"><img src="../img/twitter.png"></a>
+				<a href="https://github.com/aatf-org/"><img src="../img/github.png"></a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

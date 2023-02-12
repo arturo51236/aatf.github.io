@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AATF - Video Documentation</title>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../img/logowhite.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="../js/common.js"></script>
+</head>
+<body>
+	<!-- Background video -->
+	<video autoplay muted loop id="vinyl-background">
+		<source src="../video/vinyl-test1.mp4" type="video/mp4">
+	</video>
+
+	<!-- Navbar Items -->
+	<nav id="menu">
+		<ul>
+			<div>
+				<div class="index">
+					<li class="li-index">
+						<a href="../index.html" class="a-index">
+							<img class="foto-index" src="../img/logowhite.png">
+						</a>
+					</li>
+				</div>
+				<div class="aatf">
+					<p>AATF</p>
+				</div>
+				<li><a href="./history-english.html">History</a></li>
+				<li><a href="./documentation-english.html">Documentation</a></li>
+				<li><a href="./downloads-english.html">Downloads</a></li>
+				<li><a href="./contact-english.html">Contact</a></li>
+				<li><a href="./thanks-english.html">Thanks</a></li>
+				<div class="desplegable">
+					<button onclick="desplegar()" class="boton-idioma">
+						<li><img class="foto-idioma" src="../img/english.png"></li>
+					</button>
+					<div id="contenido-idiomas" class="contenido-idiomas">
+						<ul>
+							<li><a href="../spanish/video-spanish.html">Spanish</a></li>
+							<li><a href="./video-english.html">English</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</ul>
+	</nav>
+
+	<!-- Videos -->
+	<div class="documentacion-video-h2">
+		<h2>Video documentation</h2>
+	</div>
+	<div class="documentacion-video-youtube">
+		<iframe width="70%" height="600px" src="https://www.youtube.com/embed/K4TOrB7at0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</div>
+	<div class="documentacion-video-local">
+		<video width="750px" controls>
+			<source src="../video/samplevideo.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<!-- Footer -->
+	<footer class="centro">
+		<div class="copyright">
+			<h3>Copyright</h3>
+			<p>Arturo Navarro Balbuena © 2023</p>
+		</div>
+		<div class="social-media">
+			<h3>Our social media</h3>
+			<div class="social-media-icons">
+				<a href="https://discord.gg/aatf-org/"><img src="../img/discord.png"></a>
+				<a href="https://t.me/aatf-org/"><img src="../img/telegram.png"></a>
+				<a href="https://twitter.com/aatf-org/"><img src="../img/twitter.png"></a>
+				<a href="https://github.com/aatf-org/"><img src="../img/github.png"></a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
