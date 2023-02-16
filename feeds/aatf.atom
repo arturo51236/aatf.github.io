@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-es">
+	<title>Noticias de AATF</title>
+	<id>https://arturo51236.github.io/feeds/aatf.atom</id>
+	<link rel="self" href="https://arturo51236.github.io/feeds/aatf.atom" />
+	<link rel="alternate" href="https://arturo51236.github.io" />
+	<updated>2023-02-22T17:00:00Z</updated>
+	<author>
+		<name>Arturo Navarro</name>
+		<email>arturonb51236@gmail.com</email>
+	</author>
+
+	<entry>
+		<title>Historia del proyecto</title>
+		<id>https://arturo51236.github.io/spanish/history-spanish.html</id>
+		<link rel="alternate" href="https://arturo51236.github.io/spanish/history-spanish.html" />
+		<author>
+			<name>Arturo Navarro</name>
+		</author>
+		<updated>2023-02-22T17:00:00Z</updated>
+		<summary>La motivación del proyecto está aquí.</summary>
+	</entry>
+</feed>

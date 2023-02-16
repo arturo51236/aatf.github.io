@@ -1,0 +1,24 @@
+<rss version="2.0">
+	<channel>
+		<title>Noticias de AATF</title>
+		<link>https://arturo51236.github.io/</link>
+		<description>Noticias</description>
+		<language>es</language>
+		<item>
+			<title>Tiempo en Tomelloso</title>
+			<link>https://www.tiempo.es/ciudad_real-tomelloso-es0cr0030.html</link>
+			<guid>https://www.tiempo.es/ciudad_real-tomelloso-es0cr0030.html</guid>
+			<description>
+				Cielos despejados lo que queda de semana.
+			</description>
+		</item>
+		<item>
+			<title>Historia de la web</title>
+			<link>https://arturo51236.github.io/spanish/history-spanish.html</link>
+			<guid>https://arturo51236.github.io/spanish/history-spanish.html</guid>
+			<description>
+				La motivación del proyecto está aquí.
+			</description>
+		</item>
+	</channel>
+</rss>
